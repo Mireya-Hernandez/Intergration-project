@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+int a=3;
+int x=5;
+int (a*x);
