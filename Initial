@@ -1,7 +1,9 @@
 // Mireya Hernandez Cruz (Program) Informational App
+import java.util.*;
+
 public class HelloWorld {
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World !");
 		System.out.println("This is an informational App about diffreent types of dieasese and"
@@ -12,7 +14,32 @@ public class HelloWorld {
 					   Float - float -  0.758 */
 		System.out.print("True or false can people with chronic ilness live a normal life?");
 			boolean yes = true;
-			System.out.println("This is"+  yes);
+			System.out.println("This is" +  yes);
 			int a = 10;
 			System.out.println(a);
 			double b = 2.5;
+			System.out.println(b);
+			
+			
+		/* Variable: is a location in memory.
+		 * Scope:
+		 */
+			
+			
+		/*The only difference between a normal variable and a final variable is that we can re-assign
+		  value to a normal variable but we cannot change the value of a final variable once assigned.
+		  Hence final variables must be used only for the values that we want to remain constant
+		  throughout the execution of program.	*/ 
+			
+			// a final variable
+			final int MyConstant = 5;
+			// try changing  
+			MyConstant = 50;
+			System.out.println("Value of the constant is "+ MyConstant);
+			// It will not change
+			
+			    
+		
+			     
+  }
+		

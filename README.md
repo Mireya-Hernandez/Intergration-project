@@ -1,7 +1,4 @@
-// Mireya Hernandez Cruz (Program) Informational App
-public class HelloWorld {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World !");
 		System.out.println("This is an informational App about diffreent types of dieasese and"
@@ -16,3 +13,4 @@ public class HelloWorld {
 			int a = 10;
 			System.out.println(a);
 			double b = 2.5;
+// Variable 
